@@ -1,5 +1,6 @@
 # Server-side triage backend: semantic types, LLM ability, graph, and walkers.
 # Plain .jac with no JSX -> server placement by inference (see jac-fullstack-patterns).
+# Commit new changes to the graph and report structured data to the client for UI rendering.
 
 # 1. Define Semantic Meaning Types for the LLM
 enum Category {

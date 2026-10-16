@@ -2,6 +2,8 @@ import from .core { TaskItem, ingest_task, list_tasks, resolve_task }
 
 import "./style.css";
 
+# Commit new changes to the graph and report structured data to the client for UI rendering.
+
 # 4. Full-Stack Client GUI Component
 def:pub app -> JsxElement {
     has tasks: list[TaskItem] = [];

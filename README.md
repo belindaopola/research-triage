@@ -86,4 +86,4 @@ A small full-stack app built with [Jac](https://www.jaseci.org/). You enter a re
 
 ## License
 
-Add your license here.
+Absent
