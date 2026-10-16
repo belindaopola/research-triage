@@ -1,7 +1,8 @@
 [project]
 name = "research-triage"
 version = "0.1.0"
+kind = "web-app"
 entrypoint = "main.jac"
 
-[plugins.byllm]
-model = "gemini/gemini-2.5-flash"
+[byllm.model]
+default_model = "gemini/gemini-3.8-flash"
